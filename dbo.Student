@@ -1,0 +1,12 @@
+database table structure:
+
+create data table as Student
+
+create table colums as follows;
+
+StuID (PK, int, not null)
+Username (varchar(50), null)
+Password (varchar (150), null)
+Birthday (date, null)
+RegDay (date, null)
+Stream(varchar (50), null)
