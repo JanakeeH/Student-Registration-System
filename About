@@ -1,0 +1,3 @@
+This project is about student registration system which is developed for an insitiute.This system provide the facilities for the institiute to handle their student enrollment proces.
+Have the ability of enroll the student, view the details of the students, edit thier profile, delete records and create new student record.
+For the developement of this system I have used ASP.NET MVC framework with C#, MSSQL technologies.
