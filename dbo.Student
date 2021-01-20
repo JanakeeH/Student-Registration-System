@@ -10,3 +10,5 @@ Password (varchar (150), null)
 Birthday (date, null)
 RegDay (date, null)
 Stream(varchar (50), null)
+
+
