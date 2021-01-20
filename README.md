@@ -1,2 +1,2 @@
 # Student-Registration-System
-(ASP.NET based)
+(ASP.NET MVC based)
