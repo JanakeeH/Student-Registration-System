@@ -1,0 +1,74 @@
+﻿@model Spwin.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>View Details</h2>
+
+<div>
+    @*<h4>Student</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StuID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StuID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>*@
+
+        @*<dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>*@
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.RePassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RePassword)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Birthday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Birthday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegDay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegDay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stream)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stream)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.StuID}) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
